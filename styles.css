@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0,0,0,0.75),rgb(0,0,0,0.75)), url(bg1.JPG);
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: azure;
+    text-transform: uppercase;
+}
+
+.navbar ul li a:hover{
+
+    color: purple;
+    transition: 2s;
+}
+
+.content{
+    width: 100%;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-90%);
+    text-align: center;
+    color: azure;
+
+
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    background: transparent;
+    color:azure;
+    border: solid indigo;
+    position: relative;
+    overflow: hidden;
+
+}
+span{
+    background: indigo;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 1s;
+
+
+}
+
+button:hover span{
+    width: 100%;
+
+}
+
+.account-btn{
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    background-image: linear-gradient(indigo,purple);
+}
+
+.heading{
+
+    padding: 35px;
+    padding-left: 15px;
+}
+h2 {
+    text-align:center;
+    color:azure;
+    font-size: 50px;
+    
+
+}
+
+/*Gallery Code Below 
+
+.gallery{
+    margin: 10px 50px;
+
+}
+
+.gallery img{
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+    
+}
+.gallery img:hover{
+
+    filter:grayscale(0);
+    transform: scale(1.1);
+}*/
+
+.sliderbox{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+.sliderbox img{
+    margin: 5px;
+    width: 375px;
+    border: 2px solid rgb(182, 155, 155);
+    cursor: pointer;
+     }
+
+     
+
+     
+     
+.sliderbox img:hover{
+
+    border: 2px solid rgb(39, 39, 235);
+}
+
+
+     /* About Page CSS */
+
+.aboutcontainer{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg,rgb(97, 34, 245), #b92fc5);
+    color: #fff;
+    position: relative;
+}
+
+
+#clock{
+    width: 100%;
+    position:absolute;
+    font-size: 9vw;
+
+
+
+
+}
+.forward{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(210, 245, 245);
+
+}
+
+.title{
+
+    width: 100%;
+    position:absolute;
+    text-align: center;
+}
